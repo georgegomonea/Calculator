@@ -205,7 +205,7 @@ namespace First
                 First.Program.Main();
             } else if (line == "Nu")
             {
-                return;
+                Environment.Exit(0);
             } else
             {
                 Console.ForegroundColor = ConsoleColor.Red; 
